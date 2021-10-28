@@ -38,3 +38,15 @@ flex:1;}
 .par1 {font-size: 18px; color:#E5E7EB;}
 
 .Signup {background-color: #3882f6; color:white;font-size: 20px; font-weight: bold; border-radius: 20px;}
+
+.centercontainer{display: flex; flex-direction: column;align-items: center;padding:30px}
+
+.bigblock {display:flex;flex-direction: row;gap:15px;justify-content: space-between;}
+
+.smallblock{display: flex;flex-direction: column;align-items: center;justify-content: center;}
+
+.smallimg {width: 200px;
+height: 200px;
+display: flex;}
+
+.text {display:flex;flex-wrap: wrap;}
