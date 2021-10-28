@@ -21,7 +21,7 @@ a {text-decoration: none; color: white;
 display: flex;
 margin: 3px;}
 
-.footer {background-color: #1F2937;display: flex;justify-content: center;align-items: center;padding-left: 30px;padding-right: 30px;}
+.footer {background-color: #1F2937;display: flex;justify-content: center;align-items: center;padding: 30px;}
 
 .footertext {color: white;}
 
@@ -33,14 +33,14 @@ width: 237px;
 flex-wrap: wrap;
 flex:1;}
 
-.mainheader {font-size: 48px; font-weight: 900px; color: #f9faf8;}
+.mainheader {font-size:48px; font-weight:900; color: #f9faf8;}
 
 .par1 {font-size: 18px; color:#E5E7EB;}
 
 .Signup {background-color: #3882f6; color:white;font-size: 20px; font-weight: bold; border-radius: 20px;}
 
 .centercontainer{display: flex; flex-direction: column;align-items: center;padding:30px}
-
+.centerheader {color:#1F2937;font-size:36px;font-weight: 900;}
 .bigblock {display:flex;flex-direction: row;gap:15px;justify-content: space-between;}
 
 .smallblock{display: flex;flex-direction: column;align-items: center;justify-content: center;}
@@ -49,4 +49,17 @@ flex:1;}
 height: 200px;
 display: flex;}
 
-.text {display:flex;flex-wrap: wrap;}
+.text {display:flex;flex-wrap: wrap; color:grey}
+
+.quote {display: flex;background-color: #E5E7EB;padding: 30px;flex-direction: column;align-content: center;justify-items: center;}
+
+.quotetext {font-size: 36px;font-weight: lighter;color: #1F2937;align-self: center;text-align: center;}
+
+.name {display: flex;align-self: flex-end;font-size: 30px; color:#1F2937;font-weight: bold;}
+
+.calltoaction{display: flex;justify-content: space-between;align-items: center;gap: 15px;background-color: #3882f6;margin:125px;padding: 30px;border-radius: 16px;}
+
+.calltext{display: flex;flex-direction: column;color: white;align-items: center;justify-content: center;}
+.callheader {font-size: 24px;}
+.callphrase {font-size: 18px;text-align: center;}
+.signup2 {border-color: white ;border-radius: 36px;font-size: 24px;}
