@@ -1,0 +1,23 @@
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 15px;
+}
+
+ul {
+display: flex;
+flex-direction: row;
+justify-content:space-between;
+align-items: center;
+list-style-type: none;}
+
+.left-links { justify-content: flex-start; font-weight: bold; font-size: 20px;}
+.right-links {justify-content: flex-end; font-size: 15px;}
+
+a {text-decoration: none; color: white;
+display: flex;
+margin: 3px;}
+
